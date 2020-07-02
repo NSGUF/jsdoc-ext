@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:build": "jsdoc -c conf.json"
+    "docs": "jsdoc -c conf.json --readme README.md",
+    "watch": "gulp"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.3",
+    "gulp": "^3.9.0",
+    "gulp-jsdoc3": "^3.0.0",
+    "run-sequence": "^2.2.1"
   }
 }

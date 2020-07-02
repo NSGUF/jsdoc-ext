@@ -9,7 +9,7 @@
   },
   "opts": {
     "recurse": true,
-    "template": "template/jaguarjs-jsdoc",
+    "template": "template/tui.jsdoc-template",
     "encoding": "utf8",
     "destination": "./docs/"
   },
@@ -17,7 +17,10 @@
     "cleverLinks": false,
     "monospaceLinks": false,
     "default": {
-      "outputSourceFiles": true
+      "outputSourceFiles": true,
+      "staticFiles": {
+        "include": ["./template/tui.jsdoc-template/static"]
+      }
     }
   }
 }

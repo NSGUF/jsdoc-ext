@@ -1,10 +1,7 @@
 .idea
 node_modules
-dist
+docs
 .vscode
 
 /package-lock.json
 /yarn.lock
-
-/jaguarjs-jsdoc
-/tui.jsdoc-template
